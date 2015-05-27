@@ -10,7 +10,7 @@
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 659px) {
+@media screen and (min-width: 480px) and (max-width: 679px) {
 
   /**********************************
   TWO COLUMN LAYOUT
@@ -30,8 +30,13 @@
   PAGE: PORTFOLIO
   ***********************************/
 
+  img {
+    max-height: 175px;
+    min-height: 175px;
+  }
+
   #gallery li {
-    width: 45%;
+    float: left;
   }
 
   /**********************************
@@ -45,7 +50,7 @@
 
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 680px) {
 
   /**********************************
   PAGE: PORTFOLIO
@@ -53,6 +58,7 @@
 
   #gallery li {
     width: 28.33333%;
+    min-height: 240px;
   }
 
   #gallery li:nth-child(4n) {
