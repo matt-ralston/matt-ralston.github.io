@@ -1,0 +1,61 @@
+body {
+  background: url('../img/lightrail.jpg') no-repeat center center fixed;
+
+}
+
+#container {
+  background-color: rgba(56,56,56,.8);
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  width:70%;
+  height: 500px;
+  border-radius: 5px;
+  margin: 100px auto 0 auto;
+}
+
+.panel-heading {
+  font-size: 24px;
+}
+
+label, input {
+  padding: 10px;
+}
+
+#subheader {
+  margin: 15px 0;
+}
+
+#stopID {
+  color: black;
+  width: 75px;
+  text-align: center;
+  margin-right: 1%;
+}
+
+td {
+  padding: 1% 3%;
+}
+
+.dataRow {
+  border-bottom: 1px solid #aaa;
+}
+.dataRow:hover {
+  background-color: rgb(51, 122, 183);
+}
+
+.trheader {
+  font-size: 22px;
+}
+.panel-heading {
+  font-size: 32px;
+}
+
+.tdData {
+  font-weight: 400;
+}
+
+#location1 {
+  margin: 2px auto;
+  font-size: 22px;
+}
