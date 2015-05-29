@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voodoo Donuts</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>Voodoo Donuts Baking Simulator</header>
+      <img id="homer" src="homer.jpg">
+    <section id="form">
+      <p>Enter the average number of donuts you typically sell per customer.</p>
+      <p>Then click Submit!</p>
+      <div id="userInput">
+        <label>Donuts:
+          <input type="text" id="donutFatty" />
+          <button id="submit">Submit</button>
+          <div id="fatty"></div>
+        </label>
+      </div>
+      <table id="voodooTable">
+        <tr id="columnHeader">
+          <th>Location</th>
+          <th class="timeHead">7 am</th>
+          <th class="timeHead">8 am</th>
+          <th class="timeHead">9 am</th>
+          <th class="timeHead">10 am</th>
+          <th class="timeHead">11 am</th>
+          <th class="timeHead">12 pm</th>
+          <th class="timeHead">1 pm</th>
+          <th class="timeHead">2 pm</th>
+          <th class="timeHead">3 pm</th>
+          <th class="timeHead">4 pm</th>
+          <th class="timeHead">5 pm</th>
+          <th class="timeHead">6 pm</th>
+          <th>TOTAL</th>
+        </tr>
+        <tr id="downtown">
+          <th>Downtown</th>
+        </tr>
+        <tr id="capitol_hill">
+          <th>Capitol Hill</th>
+        </tr>
+        <tr id="south_lake_union">
+          <th>South Lake Union</th>
+        </tr>
+        <tr id="wedgewood">
+          <th>Wedgewood</th>
+        </tr>
+        <tr id="ballard">
+          <th>Ballard</th>
+        </tr>
+      </table>
+    </section>
+    <script src="voodoou.js"></script>
+  </body>
+</html>
