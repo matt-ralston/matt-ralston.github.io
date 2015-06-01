@@ -1,4 +1,4 @@
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 550px) {
 
   /**********************************
   PAGE: PORTFOLIO
@@ -6,11 +6,18 @@
 
   #gallery li {
     width: 90%;
+    float: left;
+    clear: left;
+  }
+
+  img {
+    max-height: 175px;
+    min-height: 175px;
   }
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 679px) {
+@media screen and (min-width: 551px) and (max-width: 679px) {
 
   /**********************************
   TWO COLUMN LAYOUT
@@ -35,8 +42,8 @@
     min-height: 175px;
   }
 
-  #gallery li {
-    float: left;
+  #gallery li:nth-child(2n+1) {
+    clear: left;
   }
 
   /**********************************
